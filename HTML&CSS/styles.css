@@ -48,3 +48,33 @@ header {
 footer .card {
     background: #bbacf1;
 }
+
+.btn{
+    background: #94fae0;
+    font-size: inherit;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 4px #728b85;
+    opacity: 0.7;
+}
+
+.btn:active{
+    box-shadow: 2px 2px 4px #728b85;
+}
+
+a {
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #728b85;
+}
