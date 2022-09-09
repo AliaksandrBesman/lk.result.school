@@ -89,6 +89,10 @@ table tbody tr:nth-child(even){
     background: rgb(247, 217, 179);
 }
 
+table tbody td:nth-child(1){
+    font-weight: bold;
+}
+
 table tbody td{
     padding: 0 10px;
 }
