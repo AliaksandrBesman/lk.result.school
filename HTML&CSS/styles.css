@@ -53,6 +53,7 @@ footer .card {
     background: #94fae0;
     font-size: inherit;
     border-radius: 10px;
+    padding: 5px;
     transition: all 0.3s;
 }
 
@@ -77,4 +78,26 @@ a:hover {
 
 a:visited {
     color: #728b85;
+}
+
+table {
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+}
+
+table tbody tr:nth-child(even){
+    background: rgb(247, 217, 179);
+}
+
+table tbody td{
+    padding: 0 10px;
+}
+
+th {
+    background: #fad8b8;
+    border-bottom: 2px solid black;
+}
+
+.prog-lang ul h4 {
+    margin: 0px;
 }
